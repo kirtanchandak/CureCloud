@@ -1,10 +1,14 @@
 import "./App.css";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <p className="text-3xl text-yellow-600 flex justify-center items-center">
-      Kirtan
-    </p>
+    <div>
+      <p className="text-3xl text-yellow-600 flex justify-center items-center">
+        Kirtan
+      </p>
+      <Home />
+    </div>
   );
 }
 
